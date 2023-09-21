@@ -1,12 +1,12 @@
 <?php
 
-namespace PluginPlaceholder\Includes;
+namespace ProtectMyContent\Includes;
 
 class Lyfecycle
 {
     public static function activate()
     {
-        do_action('PluginPlaceholder/setup');
+        do_action('ProtectMyContent/setup');
     }
 
     public static function deactivate()
@@ -15,6 +15,6 @@ class Lyfecycle
 
     public static function uninstall()
     {
-        do_action('PluginPlaceholder/cleanup');
+        do_action('ProtectMyContent/cleanup');
     }
 }

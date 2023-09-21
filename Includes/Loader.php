@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginPlaceholder\Includes;
+namespace ProtectMyContent\Includes;
 
 class Loader
 {
@@ -9,8 +9,8 @@ class Loader
 
     public function __construct()
     {
-        $this->plugin_version = defined('PLUGIN_PLACEHOLDER_VERSION') ? PLUGIN_PLACEHOLDER_VERSION : '1.0.0';
-        $this->plugin_name = 'plugin-placeholder';
+        $this->plugin_version = defined('PROTECTMYCONTENT_VERSION') ? PROTECTMYCONTENT_VERSION : '1.0.0';
+        $this->plugin_name = 'protect-my-content';
         $this->loadDependencies();
 
         add_action('plugins_loaded', [$this, 'loadPluginTextdomain']);
@@ -18,8 +18,8 @@ class Loader
 
     private function loadDependencies()
     {
-        foreach (glob(PLUGIN_PLACEHOLDER_PATH . 'Functionality/*.php') as $filename) {
-            $class_name = '\\PluginPlaceholder\Functionality\\' . basename($filename, '.php');
+        foreach (glob(PROTECTMYCONTENT_PATH . 'Functionality/*.php') as $filename) {
+            $class_name = '\\ProtectMyContent\Functionality\\' . basename($filename, '.php');
             if (class_exists($class_name)) {
                 try {
                     new $class_name($this->plugin_name, $this->plugin_version);
@@ -33,6 +33,6 @@ class Loader
 
     public function loadPluginTextdomain()
     {
-        load_plugin_textdomain('plugin-placeholder', false, dirname(PLUGIN_PLACEHOLDER_BASENAME) . '/languages/');
+        load_plugin_textdomain('protect-my-content', false, dirname(PROTECTMYCONTENT_BASENAME) . '/languages/');
     }
 }
