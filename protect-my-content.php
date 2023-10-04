@@ -4,7 +4,7 @@
  * The plugin bootstrap file
  *
  * @wordpress-plugin
- * Plugin Name:       ProtectMyContent
+ * Plugin Name:       Protect My Content
  * Plugin URI:        https://sirvelia.com/
  * Description:       A WordPress plugin made with PLUBO.
  * Version:           1.0.0
