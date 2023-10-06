@@ -9,7 +9,7 @@ class Settings
 
 	protected $settings;
 
-	protected $options_group = 'protect_my_content';
+	protected $options_group = PROTECTMYCONTENT_OPTIONS_GROUP;
 
 	public function __construct($plugin_name, $plugin_version)
 	{
@@ -68,6 +68,6 @@ class Settings
 		$description = esc_attr($args['description']);
 		$checked = esc_attr($args['checked']) ? 'checked="checked"' : '';
 
-		echo "<label for=\"{$options_group}[{$slug}]\"><input name=\"{$options_group}[{$slug}]\" id=\"{$slug}\" type=\"checkbox\" value=\"1\" {$checked} /> {$description}</label>";
+		echo "<label for=\"{$options_group}[{$slug}]\"><input name=\"{$options_group}[{$slug}]\" id=\"{$options_group}[{$slug}]\" type=\"checkbox\" value=\"1\" {$checked} /> {$description}</label>";
 	}
 }

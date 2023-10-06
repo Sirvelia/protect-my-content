@@ -25,6 +25,7 @@ define('PROTECTMYCONTENT_VERSION', '1.0.0');
 define('PROTECTMYCONTENT_PATH', plugin_dir_path(__FILE__));
 define('PROTECTMYCONTENT_BASENAME', plugin_basename(__FILE__));
 define('PROTECTMYCONTENT_URL', plugin_dir_url(__FILE__));
+define('PROTECTMYCONTENT_OPTIONS_GROUP', 'protect_my_content');
 
 // AUTOLOAD
 if (file_exists(PROTECTMYCONTENT_PATH . 'vendor/autoload.php')) {
