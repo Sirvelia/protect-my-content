@@ -13,10 +13,10 @@ class DisableTextSelect
         $this->plugin_name = $plugin_name;
         $this->plugin_version = $plugin_version;
 
-        add_action('wp_head', [$this, 'render_script'], 90);
+        add_action('wp_head', [$this, 'render_style'], 90);
     }
 
-    public function render_script()
+    public function render_style()
     {
         echo "<style>body {
         -webkit-touch-callout: none; /* iOS Safari */
