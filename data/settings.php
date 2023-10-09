@@ -15,4 +15,10 @@ return [
         'type' => 'checkbox',
         'description' => __('Check this to disable text selection', 'protect-my-content'),
     ],
+    [
+        'slug' => 'disable-feed',
+        'name' => __('Disable Feed', 'protect-my-content'),
+        'type' => 'checkbox',
+        'description' => __('Check this to disable the web\'s feed', 'protect-my-content'),
+    ],
 ];
