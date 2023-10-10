@@ -32,7 +32,6 @@ class AdminMenus
 		    function() {
 				$this->display_template('settings');
 			},
-		    'dashicons-admin-settings',
 		    6
 		);
 	}
