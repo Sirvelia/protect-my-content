@@ -6,7 +6,7 @@
  * @wordpress-plugin
  * Plugin Name:       Protect My Content
  * Plugin URI:        https://sirvelia.com/
- * Description:       A WordPress plugin made with PLUBO.
+ * Description:       A simple plugin to protect your content from humans and bots.
  * Version:           1.0.0
  * Author:            Sirvelia
  * Author URI:        https://sirvelia.com/
