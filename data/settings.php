@@ -21,4 +21,10 @@ return [
         'type' => 'checkbox',
         'description' => __('Check this to disable the web\'s feed', 'protect-my-content'),
     ],
+    [
+        'slug' => 'protect-rest-api',
+        'name' => __('Protect REST API', 'protect-my-content'),
+        'type' => 'checkbox',
+        'description' => __('Check this to protect the REST API from non-logged users', 'protect-my-content'),
+    ],
 ];
