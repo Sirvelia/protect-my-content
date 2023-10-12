@@ -22,6 +22,12 @@ return [
         'description' => __('Check this to disable the web\'s feed', 'protect-my-content'),
     ],
     [
+        'slug' => 'disable-iframe-embedding',
+        'name' => __('Disable iframe Embedding', 'protect-my-content'),
+        'type' => 'checkbox',
+        'description' => __('Check this to prevent external embedding via iframe', 'protect-my-content'),
+    ],
+    [
         'slug' => 'protect-rest-api',
         'name' => __('Protect REST API', 'protect-my-content'),
         'type' => 'checkbox',
