@@ -1,6 +1,7 @@
 <?php
 namespace ProtectMyContent\Functionality;
 
+use ProtectMyContent\Components\Data;
 class Settings
 {
 
@@ -16,7 +17,7 @@ class Settings
 		$this->plugin_name = $plugin_name;
 		$this->plugin_version = $plugin_version;
 
-		$this->settings = (array) \ProtectMyContent\Components\Settings::get_data();
+		$this->settings = (array) Data::get_data('settings');
 
 		if ($this->settings) {
 			add_action('admin_init', [$this, 'settings_init']);

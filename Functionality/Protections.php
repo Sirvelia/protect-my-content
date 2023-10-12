@@ -1,7 +1,7 @@
 <?php
 namespace ProtectMyContent\Functionality;
 
-use ProtectMyContent\Components\Settings;
+use ProtectMyContent\Components\Data;
 class Protections
 {
 
@@ -18,7 +18,7 @@ class Protections
 
 	private function maybe_activate_protections()
 	{
-		$settings = (array) Settings::get_data();
+		$settings = (array) Data::get_data('settings');
 
 		if (!$settings) {
 			return false;
