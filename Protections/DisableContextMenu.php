@@ -18,7 +18,7 @@ class DisableContextMenu
 
     public function render_script()
     {
-        echo "<script>
+        echo "<script type=\"text/javascript\">
         document.addEventListener('contextmenu', function(event) {
             event.preventDefault();
         });</script>";
