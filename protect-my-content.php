@@ -5,7 +5,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Protect My Content
- * Plugin URI:        https://sirvelia.com/
+ * Plugin URI:        https://github.com/Sirvelia/protect-my-content/
  * Description:       A simple plugin to protect your content from humans and bots.
  * Version:           0.1.0
  * Author:            Sirvelia
