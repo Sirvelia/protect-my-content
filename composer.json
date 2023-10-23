@@ -1,12 +1,4 @@
 {
-	"authors": [
-		{
-			"email": "joan@sirvelia.com",
-			"homepage": "https://sirvelia.com",
-			"name": "Joan Rodas Cusidó",
-			"role": "Developer"
-		}
-	],
 	"autoload": {
 		"files": [
 			"Utils/dev.php",
