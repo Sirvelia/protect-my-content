@@ -65,10 +65,16 @@ class Settings
 	public function checkbox_field_callback($args)
 	{
 		$options_group = $this->options_group;
-		$slug = esc_attr($args['slug']);
-		$description = esc_attr($args['description']);
-		$checked = esc_attr($args['checked']) ? 'checked="checked"' : '';
+		$slug = $args['slug'];
+		$description = $args['description'];
+		$checked = $args['checked'] ? 'checked="checked"' : '';
 
-		echo "<label for=\"{$options_group}[{$slug}]\"><input name=\"{$options_group}[{$slug}]\" id=\"{$options_group}[{$slug}]\" type=\"checkbox\" value=\"1\" {$checked} /> {$description}</label>";
+		echo sprintf(
+			'<label for="%1$s"><input name="%1$s]" id="%1$s]" type="checkbox" value="1" %2$s} /> %3$s</label>',
+			esc_attr("{$options_group}[{$slug}]"),
+			esc_attr($checked),
+			esc_attr($description),
+		);
+
 	}
 }

@@ -24,7 +24,6 @@ class Loader
                 try {
                     new $class_name($this->plugin_name, $this->plugin_version);
                 } catch (\Throwable $e) {
-                    pb_log($e);
                     continue;
                 }
             }

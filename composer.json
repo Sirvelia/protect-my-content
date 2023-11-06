@@ -1,9 +1,5 @@
 {
 	"autoload": {
-		"files": [
-			"Utils/dev.php",
-			"Utils/functions.php"
-		],
 		"psr-4": {
 			"ProtectMyContent\\": ""
 		}

@@ -37,9 +37,9 @@
 	"scripts": {
 		"build": "wp-scripts build",
 		"start": "wp-scripts start",
-		"translate": "yarn translate:pot \u0026\u0026 yarn translate:update",
+		"translate": "yarn translate:pot \u0026\u0026 yarn translate:js",
 		"translate:js": "lando wp i18n make-json ./languages --pretty-print",
-		"translate:pot": "lando wp i18n make-pot . ./languages/plugin-placeholder.pot --ignore-domain --include=\"react,resources\""
+		"translate:pot": "lando wp i18n make-pot . ./languages/protect-my-content.pot --ignore-domain --include=\"react,resources\""
 	},
 	"version": "0.4.5"
 }
