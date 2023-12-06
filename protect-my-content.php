@@ -7,7 +7,7 @@
  * Plugin Name:       Protect My Content
  * Plugin URI:        https://github.com/Sirvelia/protect-my-content/
  * Description:       A simple plugin to protect your content from humans and bots.
- * Version:           0.2.0
+ * Version:           1.0.0
  * Author:            Sirvelia
  * Author URI:        https://sirvelia.com/
  * License:           GPL-3.0+
@@ -21,7 +21,7 @@ if (!defined('WPINC')) {
 }
 
 // PLUGIN CONSTANTS
-define('PROTECTMYCONTENT_VERSION', '0.2.0');
+define('PROTECTMYCONTENT_VERSION', '1.0.0');
 define('PROTECTMYCONTENT_PATH', plugin_dir_path(__FILE__));
 define('PROTECTMYCONTENT_BASENAME', plugin_basename(__FILE__));
 define('PROTECTMYCONTENT_URL', plugin_dir_url(__FILE__));
