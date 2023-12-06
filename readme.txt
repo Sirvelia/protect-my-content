@@ -4,7 +4,7 @@ Requires at least: 6.0.0
 Tested up to: 6.3.2
 Requires PHP: 7.4
 License: GPLv2
-Stable Tag: 1.0.0
+Stable Tag: 1.0.1
 
 A simple WordPress plugin that helps proteting the site\'s content from humans and bots.
 
