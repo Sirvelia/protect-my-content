@@ -5,7 +5,7 @@ Tags: protect,content
 Requires at least: 6.0.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable Tag: 1.0.4
+Stable Tag: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,11 +17,13 @@ A simple WordPress plugin that helps proteting the site's content from humans an
 
 There are some protections available:
 
-* Disable Contextual Menu
-* Disable Text Selection
-* Disable Feed
-* Disable Iframe Embedding
-* Protect REST API
+* Disable Contextual Menu: disable right mouse button click site-wide
+* Disable Text Selection: disable the ability to select text throughout the site
+* Disable Feed: 
+disable the content feed provided by WordPress
+* Disable Iframe Embedding: 
+prevents embedding any website URL in an Iframe
+* Protect REST API: protect the rest api for only logged in users
 
 Admin settings are available in Settings/Content Protection.
 
@@ -43,6 +45,9 @@ There may be some cases, when you want your content to be private or at least pr
 1. Settings
 
 == Changelog ==
+
+= 1.0.5 =
+* Readme updated.
 
 = 1.0.4 =
 * Initial release.
