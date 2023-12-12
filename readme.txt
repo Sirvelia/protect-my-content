@@ -23,7 +23,7 @@ There are some protections available:
 disable the content feed provided by WordPress
 * Disable Iframe Embedding: 
 prevents embedding any website URL in an Iframe
-* Protect REST API: protect the rest api for only logged in users
+* Protect REST API: protect the REST API for only logged in users
 
 Admin settings are available in Settings/Content Protection.
 
