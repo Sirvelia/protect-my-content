@@ -9,11 +9,11 @@ Stable Tag: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-A simple WordPress plugin that helps proteting the site's content from humans and bots.
+A simple WordPress plugin that helps protecting the site's content from humans and bots.
 
 == Description ==
 
-A simple WordPress plugin that helps proteting the site's content from humans and bots.
+A simple WordPress plugin that helps protecting the site's content from humans and bots.
 
 There are some protections available:
 
@@ -45,6 +45,9 @@ There may be some cases, when you want your content to be private or at least pr
 1. Settings
 
 == Changelog ==
+
+= 1.0.6 =
+* Readme updated.
 
 = 1.0.5 =
 * Readme updated.
