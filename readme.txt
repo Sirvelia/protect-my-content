@@ -5,7 +5,7 @@ Tags: protect,content
 Requires at least: 6.0.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable Tag: 1.0.6
+Stable Tag: 1.0.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -46,7 +46,7 @@ There may be some cases, when you want your content to be private or at least pr
 
 == Changelog ==
 
-= 1.0.6 =
+= 1.0.8 =
 * Readme updated.
 
 = 1.0.5 =
