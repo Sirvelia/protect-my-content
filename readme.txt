@@ -3,7 +3,7 @@ Contributors: amadeuarderiu,sirvelia
 Donate link: https://sirvelia.com/
 Tags: protect,content
 Requires at least: 6.0.0
-Tested up to: 6.4
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable Tag: 1.0.8
 License: GPLv3
