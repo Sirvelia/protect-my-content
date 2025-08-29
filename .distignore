@@ -17,3 +17,6 @@ package.json
 yarn.lock
 readme.md
 composer.lock
+
+CLAUDE.md
+/.claude
